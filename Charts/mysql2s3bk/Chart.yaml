@@ -1,0 +1,6 @@
+apiVersion: v2
+appVersion: alpha
+description: MySQL database JOBS
+name: mysql2s3bk
+type: application
+version: 0.1.0
