@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  mysql2s3bk:
+  - apiVersion: v2
+    appVersion: alpha
+    created: "2023-10-09T02:50:07.980653104Z"
+    description: MySQL database JOBS
+    digest: a9d49e82bcd1a94977d4b3cd3d621e5d105e7befaed290e971640850bf66c314
+    name: mysql2s3bk
+    type: application
+    urls:
+    - https://charts.mgou.dev/mysql2s3bk-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-10-09T02:50:07.979817684Z"
