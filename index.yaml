@@ -1,14 +1,25 @@
 apiVersion: v1
 entries:
+  helloworld:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-10-09T02:55:53.273997642Z"
+    description: A Helm chart for Kubernetes
+    digest: 5546e06a9d6125a52cdb4dce4475d76c0ed6a3e0ffba1db8d7524b38405c3f76
+    name: helloworld
+    type: application
+    urls:
+    - https://charts.mgou.dev/helloworld-0.1.0.tgz
+    version: 0.1.0
   mysql2s3bk:
   - apiVersion: v2
     appVersion: alpha
-    created: "2023-10-09T02:50:07.980653104Z"
+    created: "2023-10-09T02:55:53.274675144Z"
     description: MySQL database JOBS
-    digest: a9d49e82bcd1a94977d4b3cd3d621e5d105e7befaed290e971640850bf66c314
+    digest: 68aebe11adf425ac18ea47b96f50b0833fb78fe292344d89c96cb54f583b58bf
     name: mysql2s3bk
     type: application
     urls:
     - https://charts.mgou.dev/mysql2s3bk-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-09T02:50:07.979817684Z"
+generated: "2023-10-09T02:55:53.272576237Z"
