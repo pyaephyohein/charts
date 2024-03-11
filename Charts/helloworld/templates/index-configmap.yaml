@@ -1,0 +1,7 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: {{ include "helloworld.fullname" . }}-index
+data:
+  index.html: |-
+{{ .Values.nginx.index| indent 4 }}
