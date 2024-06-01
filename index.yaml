@@ -3,9 +3,9 @@ entries:
   helloworld:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-01T04:44:53.821375585Z"
+    created: "2024-06-01T04:59:54.171716715Z"
     description: A Helm chart for Kubernetes
-    digest: dbb70f3ee39ec06cd451ca54d8bd956e4f0db0c426b965c31fe25e26ac862b55
+    digest: c19ba86e4e9d080bce83b5337dff469d406644dd237b022ca1f27db0715ea2fe
     name: helloworld
     type: application
     urls:
@@ -14,9 +14,9 @@ entries:
   mysql2s3bk:
   - apiVersion: v2
     appVersion: alpha
-    created: "2024-06-01T04:44:53.821760917Z"
+    created: "2024-06-01T04:59:54.172131475Z"
     description: MySQL database JOBS
-    digest: 8fd0744e2e27a5defb82f47cfc60bce2296cd16f7655f4804677c26da809ad9a
+    digest: 89c4adbe85fde42fb118c771dbb151f7c75f7de4904afb2276d8f0bffc202972
     name: mysql2s3bk
     type: application
     urls:
@@ -25,12 +25,12 @@ entries:
   nginx-playground:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-01T04:44:53.822317722Z"
+    created: "2024-06-01T04:59:54.172571091Z"
     description: A Helm chart for Kubernetes
-    digest: a19fe433c29d37cecb2cc69f3fb5614ba19f3d627d2f6b652e2dafea0088d776
+    digest: 3d70142d424021d61058e48668e254de637cad973410e798896f2a7dc76e74c9
     name: nginx-playground
     type: application
     urls:
     - https://charts.mgou.dev/nginx-playground-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-01T04:44:53.820115794Z"
+generated: "2024-06-01T04:59:54.170927599Z"
