@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: {{ include "nginx-playground.fullname" . }}
   annotations:
-    reloader.stakater.com/search: "true"
+    reloader.stakater.com/auto: "true"
   labels:
     {{- include "nginx-playground.labels" . | nindent 4 }}
 spec:
