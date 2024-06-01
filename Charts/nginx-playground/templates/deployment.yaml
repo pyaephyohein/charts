@@ -2,6 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: {{ include "nginx-playground.fullname" . }}
+  annotations:
+    reloader.stakater.com/search: "true"
   labels:
     {{- include "nginx-playground.labels" . | nindent 4 }}
 spec:
